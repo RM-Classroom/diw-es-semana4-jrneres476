@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background-color: rgb(222, 227, 231);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: black;
+}
+
+/* Conteúdo */
+
+#artigo-principal{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#artigo-secundario{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.artigo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 10px;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px;
+}
+
+/* Rodapé */
+footer{
+    height: 50px;
+    background-color: rgb(222, 227, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
